@@ -1,49 +1,104 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <title>Home : Hiroki Awaji</title>
-    <link rel="stylesheet" href="web_page.css">
-  </head>
-  <body>
-    <div class="header">
-      <div class="content">
-        <h1 class="icon">Portfolio by Hiroki Awaji</h1>
-        <ul class="header-list">
-          <li><a class="home">home</a></li>
-          <li><a class="profile"href="file:///C:/Users/tsukk/OneDrive/%E3%83%87%E3%82%B9%E3%82%AF%E3%83%88%E3%83%83%E3%83%97/web_page/profile/web_page_profile.html">profile</a></li>
-          <li><a class="policy" href="file:///C:/Users/tsukk/OneDrive/%E3%83%87%E3%82%B9%E3%82%AF%E3%83%88%E3%83%83%E3%83%97/web_page/policy/web_page_policy.html">policy</a></li>
-          <li><a class="works" href="file:///C:/Users/tsukk/OneDrive/%E3%83%87%E3%82%B9%E3%82%AF%E3%83%88%E3%83%83%E3%83%97/web_page/works/web_page_works.html">works</a></li>
-          <li><a class="contact" href="file:///C:/Users/tsukk/OneDrive/%E3%83%87%E3%82%B9%E3%82%AF%E3%83%88%E3%83%83%E3%83%97/web_page/contact/web_page_contact.html">contact</a></li>
-        </ul>
-      </div>
-    </div>
-    <div class="main">
-      <div class="content">
-        <ul class="works">
-          <li class="pic1"><a href="file:///C:/Users/tsukk/OneDrive/%E3%83%87%E3%82%B9%E3%82%AF%E3%83%88%E3%83%83%E3%83%97/web_page/works/web_page_works.html#work1"><img src="Final_section_main_0715.png" onmouseover="this.src='Icon_1231.jpg'" onmouseout="this.src='Final_section_main_0715.png'" width="100%"></a></li>
-          <li class="pic2"><a href="file:///C:/Users/tsukk/OneDrive/%E3%83%87%E3%82%B9%E3%82%AF%E3%83%88%E3%83%83%E3%83%97/web_page/works/web_page_works.html#work2"><img src="メイン.png" onmouseover="this.src='Icon_12312.jpg'" onmouseout="this.src='メイン.png'"width="100%"></a></li>
-          <li class="pic3"><a href="file:///C:/Users/tsukk/OneDrive/%E3%83%87%E3%82%B9%E3%82%AF%E3%83%88%E3%83%83%E3%83%97/web_page/works/web_page_works.html#work3"><img src="Render_HA_0430.png" onmouseover="this.src='Icon_12313.jpg'" onmouseout="this.src='Render_HA_0430.png'"width="100%"></a></li>
-          <li class="pic4"><a href="file:///C:/Users/tsukk/OneDrive/%E3%83%87%E3%82%B9%E3%82%AF%E3%83%88%E3%83%83%E3%83%97/web_page/works/web_page_works.html#work4"><img src="Perse_2_HA_0630.png" onmouseover="this.src='Icon_12314.jpg'" onmouseout="this.src='Perse_2_HA_0630.png'"width="100%"></a></li>
-          <li class="pic5"><a href="file:///C:/Users/tsukk/OneDrive/%E3%83%87%E3%82%B9%E3%82%AF%E3%83%88%E3%83%83%E3%83%97/web_page/works/web_page_works.html#work5"><img src="sotsusei1.png" onmouseover="this.src='Icon_12315.jpg'" onmouseout="this.src='sotsusei1.png'"width="100%"></a></li>
-          <li class="pic6"><a href="file:///C:/Users/tsukk/OneDrive/%E3%83%87%E3%82%B9%E3%82%AF%E3%83%88%E3%83%83%E3%83%97/web_page/works/web_page_works.html#work6"><img src="IMG_9896.png" onmouseover="this.src='Icon_12316.jpg'" onmouseout="this.src='IMG_9896.png'"width="100%"></a></li>
-          <li class="pic7"><a href="file:///C:/Users/tsukk/OneDrive/%E3%83%87%E3%82%B9%E3%82%AF%E3%83%88%E3%83%83%E3%83%97/web_page/works/web_page_works.html#work7"><img src="Icon_12317.jpg" onmouseover="this.src='Icon_123172.jpg'" onmouseout="this.src='Icon_12317.jpg'"width="100%"></a></li>
+.header-list{
+  list-style: none;
+}
+*{
+  box-sizing: border-box;
+}
+.header-list li{
+  display:inline-block;
+  margin:10px;
+  font-family:courier
+}
+.header-list {
+  display:inline-block;
+  text-align:right;
+}
+.icon{
+  display:inline-block;
+  font-family:"Palatino Linotype";
+  margin-left:30px;
+}
+.header{
+  height:50px;
+  border-bottom:solid 1px;
+}
+.works li{
+  display:inline-block;
+  width:24%;
+  list-style: none;
+}
+@media(max-width:1000px){
+  .works li{
+    width:48%;
+  }
+}
+@media(max-width:670px){
+  .works li{
+    width:96%;
+  }
+}
+@media(max-width:1000px){
+  .header-list{
+    display:block
+    margin:0 auto;
+  }
+}
+@media(max-width:1000px){
+  .header{
+    height:110px;
+  }
+}
+.footer{
+  border-top:solid 1px;
+}
+.footer ul{
+  margin-top:0px;
+}
+.policy{
+  text-decoration: none;
+  color:black;
+}
+.works{
+  text-decoration: none;
+  color:black;
+}
+.contact{
+  text-decoration: none;
+  color:black;
+}
+.profile{
+  text-decoration: none;
+  color:black;
+}
+.home{
+  text-decoration: none;
+  font-weight:bold;
+}
+.policy:hover{
+  color:gray;
+}
+.works:hover{
+  color:gray;
+}
+.contact:hover{
+  color:gray;
+}
+.profile:hover{
+  color:gray;
+}
+h1{
+  margin-left: 30px;
+  font-family:"Palatino Linotype";
+  font-size:20px;
+}
+@media(max-width:1000px){
+  .header-list{
+    display:block;
+    margin:0 auto;
+    text-align:left;
+  }
+  .header{
+    height:90px;
+  }
+}
 
-
-        </ul>
-      </div>
-    </div>
-    <div class="footer">
-      <div class="content">
-        <ul class="header-list">
-          <li><a class="home">home</a></li>
-          <li><a class="profile"href="file:///C:/Users/tsukk/OneDrive/%E3%83%87%E3%82%B9%E3%82%AF%E3%83%88%E3%83%83%E3%83%97/web_page/profile/web_page_profile.html">profile</a></li>
-          <li><a class="policy" href="file:///C:/Users/tsukk/OneDrive/%E3%83%87%E3%82%B9%E3%82%AF%E3%83%88%E3%83%83%E3%83%97/web_page/policy/web_page_policy.html">policy</a></li>
-          <li><a class="works" href="file:///C:/Users/tsukk/OneDrive/%E3%83%87%E3%82%B9%E3%82%AF%E3%83%88%E3%83%83%E3%83%97/web_page/works/web_page_works.html">works</a></li>
-          <li><a class="contact" href="file:///C:/Users/tsukk/OneDrive/%E3%83%87%E3%82%B9%E3%82%AF%E3%83%88%E3%83%83%E3%83%97/web_page/contact/web_page_contact.html">contact</a></li>
-        </ul>
-      </div>
-    </div>
-
-  </body>
-</html>
