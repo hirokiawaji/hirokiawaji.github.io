@@ -27,12 +27,7 @@
   width:24%;
   list-style: none;
 }
-@media(min-width:670px)and(max-width:1000px){
-  .works li{
-    width:48%;
-  }
-}
-@media(max-width:670px){
+@media(max-width:1000px){
   .works li{
     width:96%;
   }
