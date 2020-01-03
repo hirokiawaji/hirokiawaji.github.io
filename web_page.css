@@ -37,17 +37,6 @@
     width:96%;
   }
 }
-@media(max-width:1000px){
-  .header-list{
-    display:block;
-    margin:0 auto;
-  }
-}
-@media(max-width:1000px){
-  .header{
-    height:110px;
-  }
-}
 .footer{
   border-top:solid 1px;
 }
