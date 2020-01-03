@@ -27,16 +27,7 @@
   width:24%;
   list-style: none;
 }
-@media(max-width:1000px){
-  .works li{
-    width:48%;
-  }
-}
-@media(max-width:670px){
-  .works li{
-    width:96%;
-  }
-}
+
 .footer{
   border-top:solid 1px;
 }
@@ -81,6 +72,9 @@ h1{
   font-size:20px;
 }
 @media(max-width:1000px){
+  .works li{
+    width:48%;
+  }
   .header-list{
     display:block;
     margin:0 auto;
@@ -90,4 +84,8 @@ h1{
     height:90px;
   }
 }
-
+@media(max-width:670px){
+  .works li{
+    width:96%;
+  }
+}
