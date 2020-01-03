@@ -7,7 +7,7 @@
 .header-list li{
   display:inline-block;
   margin:10px;
-  font-family:courier
+  font-family:courier;
 }
 .header-list {
   display:inline-block;
@@ -34,7 +34,7 @@
 }
 @media(max-width:1000px){
   .header-list{
-    display:block
+    display:block;
     margin:0 auto;
   }
 }
