@@ -29,7 +29,12 @@
 }
 @media(max-width:1000px){
   .works li{
-    width:90%;
+    width:48%;
+  }
+}
+@media(max-width:670px){
+  .works li{
+    width:96%;
   }
 }
 @media(max-width:1000px){
