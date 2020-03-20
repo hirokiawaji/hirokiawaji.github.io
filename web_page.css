@@ -34,6 +34,11 @@
 .footer ul{
   margin-top:0px;
 }
+h2{
+  font-family:courier;
+  font-size:30px;
+  font-weight:lighter;
+}
 .policy{
   text-decoration: none;
   color:black;
