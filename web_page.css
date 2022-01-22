@@ -29,7 +29,7 @@
 　height:50px;
 }
 .main{
-  margin-top:100px;
+  margin-top:50px;
 }
 .works li{
   display:inline-block;
@@ -121,6 +121,6 @@ h1{
     height:90px;
   }
   .header-list li{
-    font-size:30px;
+    font-size:36px;
   }
 }
