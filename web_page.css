@@ -22,7 +22,6 @@
 }
 .header{
   border-bottom:solid 1px;
-  margin-bottom:36px;
 }
 .works li{
   display:inline-block;
@@ -101,11 +100,6 @@ h1{
 @media(max-width:1000px){
   .works li{
     width:96%;
-  }
-  .header-list{
-    display:block;
-    margin:0 auto;
-    text-align:left;
   }
   .header{
     height:90px;
