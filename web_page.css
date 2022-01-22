@@ -110,4 +110,7 @@ h1{
   .header{
     height:90px;
   }
+  .header-list li{
+    font-size:24px;
+  }
 }
