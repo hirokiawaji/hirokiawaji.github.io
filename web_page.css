@@ -92,7 +92,7 @@ h1{
 }
 @media(max-width:1000px){
   .works li{
-    width:96%;
+    width:100%;
   }
   .header-list{
     display:block;
@@ -101,5 +101,8 @@ h1{
   }
   .header{
     height:90px;
+  }
+  .header-list{
+    font-size:24pt
   }
 }
