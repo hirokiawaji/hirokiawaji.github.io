@@ -8,6 +8,7 @@
   display:inline-block;
   margin:10px;
   font-family:courier;
+  font-size:24px;
 }
 .header-list {
   display:inline-block;
@@ -21,7 +22,10 @@
   font-weight:bold;
 }
 .header{
-　height:500px;
+　height:50px;
+}
+.main{
+  margin-top:100px;
 }
 .works li{
   display:inline-block;
@@ -98,6 +102,9 @@ h1{
   font-size:20px;
 }
 @media(max-width:1000px){
+  .main{
+    margin-top:200px;
+  }
   .works li{
     width:96%;
   }
