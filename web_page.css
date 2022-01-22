@@ -7,7 +7,7 @@
 .header-list li{
   display:inline-block;
   margin:10px;
-  font-family:serif;
+  font-family:courier;
 }
 .header-list {
   display:inline-block;
@@ -16,7 +16,7 @@
 .icon{
   display:inline-block;
   font-family:serif;
-  font-size:36px;
+  font-size:24px;
   margin-left:30px;
   font-weight:bold;
 }
@@ -101,10 +101,15 @@ h1{
   .works li{
     width:96%;
   }
+  .header-list{
+    display:block;
+    margin:0 auto;
+    text-align:left;
+  }
   .header{
     height:90px;
   }
   .header-list li{
-    font-size:30px;
+    font-size:18px;
   }
 }
