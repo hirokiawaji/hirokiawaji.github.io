@@ -1,6 +1,18 @@
 .header-list{
   list-style: none;
 }
+.architecture{
+  list-style: none;
+}
+.pavilion{
+  list-style: none;
+}
+.furniture{
+  list-style: none;
+}
+.unbuilt{
+  list-style: none;
+}
 *{
   box-sizing: border-box;
 }
