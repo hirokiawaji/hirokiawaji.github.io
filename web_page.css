@@ -93,7 +93,7 @@ h2{
   text-decoration: none;
   font-weight:bold;
 }
-.documents li{
+.documents a{
   text-decoration: none;
   font-weight:bold;
 }
@@ -115,11 +115,11 @@ h2{
 .tools:hover{
   color:gray;
 }
-.documents li{
+.documents a{
   text-decoration: none;
   font-weight:bold;
 }
-.documents li{
+.documents a{
   font-family:serif;
   font-size:30px;
 }
