@@ -93,6 +93,10 @@ h2{
   text-decoration: none;
   font-weight:bold;
 }
+.documents li{
+  text-decoration: none;
+  font-weight:bold;
+}
 .policy:hover{
   color:gray;
 }
@@ -110,6 +114,14 @@ h2{
 }
 .tools:hover{
   color:gray;
+}
+.documents li{
+  text-decoration: none;
+  font-weight:bold;
+}
+.documents li{
+  font-family:serif;
+  font-size:30px;
 }
 h1{
   margin-left: 30px;
