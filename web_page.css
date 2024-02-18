@@ -93,10 +93,6 @@ h2{
   text-decoration: none;
   font-weight:bold;
 }
-.documents a{
-  text-decoration: none;
-  font-weight:bold;
-}
 .policy:hover{
   color:gray;
 }
@@ -115,12 +111,15 @@ h2{
 .tools:hover{
   color:gray;
 }
-.documents a:hover{
-  color:gray;
-}
+
 .documents a{
   font-family:serif;
   font-size:45px;
+  text-decoration: none;
+  font-weight:bold;
+}
+.documents a:hover{
+  color:gray;
 }
 h1{
   margin-left: 30px;
