@@ -119,6 +119,13 @@ h2{
   font-weight:bold;
   color:black
 }
+.documents{
+  color:black
+}
+}
+.documents li{
+  color:black
+}
 .documents a:hover{
   color:gray;
 }
